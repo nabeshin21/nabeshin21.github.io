@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		font-family: Gotham  "Helvetica Neue"  Helvetica  Arial  sans-serif;
+}
+
+#outer{ width: 70%;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: auto;
+		margin-right: auto;
+		border: thin  solid  #666666;
+		font-size: 90%;
+}
+
+#banner, #footer { background-image: url(22.jpg);
+}
+ 
+#banner h1{ text-align: center;
+			border-bottom: thick  solid  #000;
+			padding: 1em;
+			margin: 0;
+}
+
+ nav{ float: left;
+		width: 250px;
+ }
+ 
+ nav, li{ margin-bottom: 1.5em;
+ }
+ 
+
+
+ nav ul{ margin: 0 0 0 0;
+		 padding-top: 2em;
+		 padding-left: 1em;
+		 padding-right: 0;
+		 padding-bottom: 0;
+		 list-style-type: none;
+}
+
+#content{ border-left: 250px  solid  #FF3366;
+}
+
+#content, p{ margin:0 0 0 0;
+			 padding: 1em  1em  1em  1em;
+			 line-height: 1.5em;
+}
+
+#content, h2{ margin:0 0 0 0;
+			  padding-top: 0;
+			  padding-right: 0;
+			  padding-bottom: 0;
+			  padding-left: .5em;
+			  
+			 
+}
+
+#footer{ border-top: thick  solid  #000;
+}
+
+#footer, p{ margin: 0 0 0 0;
+			padding: 1em 1em 1em 1em;
+}
+
+#list ul li { list-style-type: filled-circle;
+		
+}
+
+
+
+
+
