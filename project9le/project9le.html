@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>project9le</title>
+<style>
+body{ font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background-color:#56C7F6;
+	width:60%;
+	margin-left:auto;
+	margin-right: auto;}
+	
+.floatright{ float: right;
+				background-color:#58E057;
+					padding: 10px;
+						margin-top: 0;
+						margin-bottom: 10px;
+						margin-left: 10px;
+						margin-right: 10px;
+							border: 30px solid #E44447;
+}
+.clearboth{clear: both;}
+
+</style>
+</head>
+
+<body>
+<h1>Picture Project - Bao Le</h1>
+<p><img src="images/garden.jpg" alt="" width="300" height="222" class="floatright"/></p>
+<p>This picture of the campus is the full-size picture from the gallery   page, but it has been resized to display smaller. Resizing an image only   changes the size that the image displays. It does not make the file   storage size of the image any smaller. Because the file storage size   stays the same, resizing an image does not speed up the time that it   takes the browser to display the picture in a web page. The full-size   image that was selected from the gallery takes up approximately 233K .</p>
+<h2 class="clearboth">CSS Experiments for Image Formatting</h2>
+<p><div style="width: 400px;height: 1%;font-family: Trebuchet MS, sans-serif;border: 1px solid #000;font-size: 13px; color: #000;background: transparent;">
+
+<!--Format 2 with heading at top, image, credits to photographer, paragraph, footer-->
+
+<!--start of first div-->
+<div style="padding: 3px;letter-spacing: 2px;font-variant: small-caps;font-size: 20px;font-weight: bold;background: #F00; color: #FFF;text-align: center;">Parkland Campus</div>
+<img src="images/violetflowercropped.jpg" width="401" height="385" alt=""/><br />
+
+<!--start of 2nd div-->
+<div style="padding: 3px; text-align: center;letter-spacing: 3px;font-size: 12px; font-weight: 900;background: #000; color: #fff; margin-top: -5px;"> Photograph by <br /> 
+Parkland Photographer
+<br /> 
+Champaign, IL
+</div>
+
+<!--Start od 3rd Div-->
+<div style="padding: 5px;">Cropping removes portions of an image and will result in a smaller storage size. When an image is resampled, some of the colors are removed, the image is compressed and sharpened. Each time you edit and save a .jpg image, the quality   of the image is degraded to some degree. Avoid excessive editing and saving of   jpg images to retain the highest quality possible. Cropping and resampling this image reduced the file storage size 94K.</div>
+
+<!--start of 4th Div-->
+<div style="border-top: 1px dotted #000;padding: 5px;font-size: 10px;">A Canon PowerShot digital camera was used</div>
+</div></p>
+<!--End Format 2-->
+
+<h2 class="clearboth">Creating a Thumbnail Image</h2>
+<p>Thumbnail images can be used to provide a small version of an image   that will download quickly. If the user is interested in waiting for the   full-size image to display, they can click on the thumbnail to be taken   to the full size version of the picture. Thumbnails can be linked to   the image file itself or the full-size image can be put on a web page   that has a link back to the original page. If the link from the   thumbnail goes to the image file, rather than a web page, instructions   should be provided to the user to return to the original page by using   the Back button in the browser. The file storage size of this thumbnail   image is 124K. </p>
+<p><a href="http://www.csit.parkland.edu/~ddallas/cis152/webdesign/campus/index.htm"><img src="images/falltree.jpg" width="126" height="167" alt=""/></a></p>
+<h2>Creating a Transparent .GIF Image</h2>
+<p><img src="images/p9loop.gif" width="144" height="69" alt=""/> <img src="images/p9loop - Copy.gif" width="144" height="69" alt=""/></p>
+</body>
+</html>
